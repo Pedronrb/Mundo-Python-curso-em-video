@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome: ')).strip()
+print(f'O nome com as letras maiúsculas é: {nome.upper()}\nMinúsculo é: {nome.lower()}')
+print('Total de letras é: {}'.format(len(nome) - nome.count(' ')))
+print('Letras do primeiro nome: {}'.format(nome.find(' ')))
+quebra = nome.split()
+print(f'Seu primeiro nome é: {quebra[0]} e ele tem {len(quebra)} letra')

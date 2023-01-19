@@ -1,0 +1,7 @@
+num = input('Digite um número: ')
+conv = str(num)
+print(f'Analisando o número: {conv}')
+print(f'A unidade é: {conv[3]}')
+print(f'A dezena é: {conv[2]}')
+print(f'A centena é: {conv[1]}')
+print(f'A milhar é: {conv[0]}')
